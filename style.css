@@ -9,9 +9,12 @@
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: Figtree;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: hsl(0, 0%, 7%);
 }
 
 main {
@@ -19,10 +22,61 @@ main {
     width: 384px;
     border-radius: 20px;
     padding: 24px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+main:hover {
+    box-shadow: 16px 16px hsl(0, 0%, 7%);
 }
 
 #illustration {
     margin-bottom: 24px;
+}
+
+#category {
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#publishdDate {
+    margin: 12px 0;
+}
+
+#title {
+    font-weight: 800;
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+#title:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+
+#title:active {
+    color: hsl(47, 88%, 43%);
+}
+
+#description {
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+#author {
+    margin: 24px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+#author img {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
 }
 
 footer {
@@ -34,11 +88,15 @@ footer {
 }
 
 footer a {
-    color: hsl(0, 10%0, 50%);
+    color: hsl(0, 100%, 50%);
 }
 
 footer a:hover {
     color: hsl(0, 100%, 30%);
+}
+
+footer a:active {
+    color: blue
 }
 
 footer a:visited {
