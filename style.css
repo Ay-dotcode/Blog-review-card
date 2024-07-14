@@ -12,17 +12,14 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: hsl(0, 0%, 7%);
 }
 
 h1 {
     font-size: 48px;
-    margin: 36px;
+    padding: 18px;
     letter-spacing: 2px;
-    position: absolute;
-    top: 0;
 }
 
 main {
@@ -91,8 +88,7 @@ footer {
     text-align: center;
     margin: 24px;
     color: blue;
-    position: absolute;
-    bottom: 0;
+    padding: 40px;
 }
 
 footer a {
