@@ -82,6 +82,7 @@ main:hover {
     width: 32px;
     height: 32px;
     margin-right: 12px;
+    border-radius: 50%;
 }
 
 footer {
